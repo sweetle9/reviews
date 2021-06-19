@@ -363,10 +363,11 @@
     height: 3%;
   }
   .kavycka {
-    margin-top:1vw;
+    margin-top:1.2vw;
     font-size: 4.5vw;
     margin-left: 36vw;
     font-family: 'Montserrat';
+    color: white;
   }
   .slider .slick-arrow.slick-prev {
     left: 2vw;
