@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "layout.css";
+@import "content.css";
+@import "adaptive.css";
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
