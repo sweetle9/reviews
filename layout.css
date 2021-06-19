@@ -279,6 +279,44 @@
     height: 33%;
     top:33vw;
   }
+  .circles_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:13vw;
+    left:64vw;
+  }
+  .c_1 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 7.571vw;
+    height: 7.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 2vw;
+  }
+  .c_2 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 15vw;
+    top: -1vw;
+  }
+  .c_3 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 2.571vw;
+    height: 2.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 1vw;
+  }
   .red_square {
     width:38.580vw;
     height:13.800vw;
@@ -413,7 +451,7 @@
   }
   .slider_item {
     text-align: center;
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
   }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
