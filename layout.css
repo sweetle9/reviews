@@ -266,7 +266,7 @@
     height:9.644vw;
     display: inline-block;
     position: relative;
-    top:33vw;
+    top:0;
     left:0;
     mix-blend-mode: multiply;
     z-index: 1001;
@@ -275,13 +275,16 @@
   .elements {
     position: absolute;
     display: block;
+    width: 100%;
+    height: 33%;
+    top:33vw;
   }
   .red_square {
     width:38.580vw;
     height:13.800vw;
     display: inline-block;
     position: relative;
-    top:33vw;
+    top:0;
     left:0vw;
     z-index: -1;
     background-color: rgba(162, 42, 47, 1);
@@ -291,7 +294,7 @@
     height:9.644vw;
     display: inline-block;
     position: relative;
-    top:33vw;
+    top:0;
     left:0vw;
     background-color: rgba(8, 157, 148, 1);
   }
@@ -305,6 +308,7 @@
   }
   .slick-list {
     overflow: hidden;
+    height: 40vw;
   }
   .slick-slide {
   }
@@ -332,7 +336,7 @@
   }
   .slider .slick-arrow {
     position: absolute;
-    top:76%;
+    top:75%;
     z-index: 2;
     font-size: 0;
     width: 6vw;
@@ -350,6 +354,36 @@
     margin-left: 55vw;
     color:white;
   }
+  .pjero {
+    margin-top: -22vw;
+    margin-left: 55vw;
+    font-size: 3.1vw;
+  }
+  .pjero-text {
+    margin-top: 4.3vw;
+    margin-left: 55vw;
+    color:white;
+  }
+  .marina {
+    margin-top: -22vw;
+    margin-left: 55vw;
+    font-size: 3.1vw;
+  }
+  .marina-text {
+    margin-top: 4.3vw;
+    margin-left: 55vw;
+    color:white;
+  }
+  .mark {
+    margin-top: -22vw;
+    margin-left: 55vw;
+    font-size: 3.1vw;
+  }
+  .mark-text {
+    margin-top: 4.3vw;
+    margin-left: 55vw;
+    color:white;
+  }
   .text_elements {
     width: 100%;
     position: absolute;
@@ -363,7 +397,7 @@
     height: 3%;
   }
   .kavycka {
-    margin-top:1.2vw;
+    margin-top:2vw;
     font-size: 4.5vw;
     margin-left: 36vw;
     font-family: 'Montserrat';
