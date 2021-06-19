@@ -259,6 +259,7 @@
     width: 30%;
     height: 30%;
     margin-left:-12vw;
+    margin-right: 0;
   }
   .transp_square {
     width:35.3vw;
@@ -308,9 +309,10 @@
   .slick-slide {
   }
   .slick-slide.slick-active {
-
+    margin: 0 0;
   }
   .slick-slide.slick-current {
+    margin: 0 0;
 
   }
   .slick-slide.slick-center {
@@ -347,6 +349,24 @@
     margin-top: 4.3vw;
     margin-left: 55vw;
     color:white;
+  }
+  .text_elements {
+    width: 100%;
+    position: absolute;
+    display: block;
+    top:28vw;
+  }
+  .otzyvy {
+    margin-top:-8vw;
+    font-size: 3.1vw;
+    width: 3%;
+    height: 3%;
+  }
+  .kavycka {
+    margin-top:1vw;
+    font-size: 4.5vw;
+    margin-left: 36vw;
+    font-family: 'Montserrat';
   }
   .slider .slick-arrow.slick-prev {
     left: 2vw;
