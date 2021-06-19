@@ -258,13 +258,14 @@
   .slider_item img {
     width: 30%;
     height: 30%;
+    margin-left:-12vw;
   }
   .transp_square {
-    width:38.1vw;
+    width:35.3vw;
     height:9.644vw;
-    display: block;
+    display: inline-block;
     position: relative;
-    top:37vw;
+    top:33vw;
     left:0;
     mix-blend-mode: multiply;
     z-index: 1001;
@@ -277,12 +278,21 @@
   .red_square {
     width:38.580vw;
     height:13.800vw;
-    display: block;
+    display: inline-block;
     position: relative;
-    top:23.2vw;
-    left:38vw;
-    z-index: 1002;
+    top:33vw;
+    left:0vw;
+    z-index: -1;
     background-color: rgba(162, 42, 47, 1);
+  }
+  .small_square {
+    width:13vw;
+    height:9.644vw;
+    display: inline-block;
+    position: relative;
+    top:33vw;
+    left:0vw;
+    background-color: rgba(8, 157, 148, 1);
   }
   .slick-slider {
 
@@ -290,7 +300,7 @@
   .slick-track {
     display: flex;
     align-items: flex-start;
-    margin-left: -19vw;
+    margin-left: -16vw;
   }
   .slick-list {
     overflow: hidden;
@@ -320,20 +330,31 @@
   }
   .slider .slick-arrow {
     position: absolute;
-    top:73%;
+    top:76%;
     z-index: 2;
     font-size: 0;
     width: 6vw;
     height: 6vw;
     z-index: 1005;
+    opacity: 0.8;
+  }
+  .veronika {
+    margin-top: -22vw;
+    margin-left: 55vw;
+    font-size: 3.1vw;
+  }
+  .veronika-text {
+    margin-top: 4.3vw;
+    margin-left: 55vw;
+    color:white;
   }
   .slider .slick-arrow.slick-prev {
     left: 2vw;
-    background: url('images/arrow-prev.svg') 0 0 /100% no-repeat;
+    background: url('images/arrow-prev.svg') 0 0 /70% no-repeat;
   }
   .slider .slick-arrow.slick-next {
-    right: 2vw;
-    background: url('images/arrow-next.svg') 0 0 /100% no-repeat;
+    right: 1vw;
+    background: url('images/arrow-next.svg') 0 0 /70% no-repeat;
   }
   .slider_item {
     text-align: center;
