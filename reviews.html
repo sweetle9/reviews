@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ОТЗЫВЫ</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <style media="screen">
+
+    </style>
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $(".header_burger").click(function() {
+    $(".header_burger, .header_menu").toggleClass("active");
+  });
+  $('.header_menu').click(function(){
+     $('.header_burger, .header_menu').removeClass('active');
+  });
+    $(".slider").slick({
+      arrows:false,
+      dots:true,
+      // adaptiveHeight:true,
+      fade:true,
+    });
+
+    });
+  </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+    <div class="container">
+    <div class="header_body">
+      <a href="#" class="header_logo">
+        <img src="images/text_logo.svg" alt="">
+      </a>
+      <a href="#" class="header_logo_2">
+        <img src="images/sausage_logo.svg" alt="">
+      </a>
+      <div class="header_burger">
+        <span></span>
+      </div>
+      <nav class="header_menu">
+        <ul class="header_list">
+        <div class="flex_menu_1">
+          <div class="upper_menu">
+          <li>
+            <a href="https://sweetle9.github.io/KruchinaArlekina/mainpage.html" class="header_link">О НАС</a>
+          </li>
+          </div>
+        <div class="lower_menu">
+            <li>
+            <a href="https://sweetle9.github.io/Book/book.html" class="header_link lower">КНИГА</a>
+          </li>
+          <li>
+            <a href="https://sweetle9.github.io/building/building.html" class="header_link lower">ЗДАНИЕ</a>
+          </li>
+          <li>
+            <a href="#" class="header_link lower">ОТЗЫВЫ</a>
+          </li>
+        </div>
+        </div>
+          <div class="flex_menu_2">
+            <li>
+              <a href="https://sweetle9.github.io/events/events.html" class="header_link">МЕРОПРИЯТИЯ</a>
+            </li>
+          </div>
+            <div class="flex_menu_3">
+          <div class="upper_menu">
+              <li>
+              <a href="#" class="header_link">АКЦИИ</a>
+            </li>
+          </div>
+            <div class="lower_menu">
+              <li>
+                <a href="https://sweetle9.github.io/game/game.html" class="header_link lower">ИГРА</a>
+              </li>
+              <li>
+                <a href="https://sweetle9.github.io/bonuscard/bonuscard.html" class="header_link lower">БОНУСЫ</a>
+              </li>
+            </div>
+            </div>
+        </ul>
+        <div class="header_contact">
+          <a href="#" class="header_phone_number">8 (812) 10250-50</a>
+          <a href="#" class="header_adress">ул. Караванная 16/14, Санкт Петербург</a>
+          <a href="#" class="header_mail">kruchinaarlekina</a>
+          </div>
+      </nav>
+      </div>
+      </div>
+      </header>
+      <div class="content">
+      <div class="slider_container">
+        <div class="">
+
+        </div>
+        <div class='slider'>
+          <div class="slider_item"><img data-lazy="images/1.jpg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/2.jpg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/3.jpg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/4.jpg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/5.jpg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/6.jpg" alt=""></div>
+        </div>
+      </div>
+      </div>
+      <!-- <footer class="footer">
+      <div class="footer_container">
+          <div class="footer_body">
+            <a href="#" class="footer_mail">krucinaarlekina@email.ru</a>
+            <a href="#" class="footer_autor">Калтаускайте Ингрида</a>
+            <div class="icons">
+              <img src="images/fb_icon.png" alt="">
+              <img src="images/twitter_icon.png" alt="">
+              <img src="images/insta_icon.png" alt="">
+            </div>
+        </div>
+        </div>
+        </footer> -->
+      </div>
+  </body>
+</html>
