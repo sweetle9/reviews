@@ -264,9 +264,9 @@
   .transp_square {
     width:35.3vw;
     height:9.644vw;
-    display: inline-block;
+    display: block;
     position: relative;
-    top:0;
+    top:4vw;
     left:0;
     mix-blend-mode: multiply;
     z-index: 1001;
@@ -320,20 +320,20 @@
   .red_square {
     width:38.580vw;
     height:13.800vw;
-    display: inline-block;
+    display: block;
     position: relative;
-    top:0;
-    left:0vw;
+    top:-9.7vw;
+    left:35vw;
     z-index: -1;
     background-color: rgba(162, 42, 47, 1);
   }
   .small_square {
     width:13vw;
     height:9.644vw;
-    display: inline-block;
+    display: block;
     position: relative;
-    top:0;
-    left:0vw;
+    top:-19.4vw;
+    left:73.5vw;
     background-color: rgba(8, 157, 148, 1);
   }
   .slick-slider {
@@ -375,7 +375,6 @@
   .slider .slick-arrow {
     position: absolute;
     top:75%;
-    z-index: 2;
     font-size: 0;
     width: 6vw;
     height: 6vw;
