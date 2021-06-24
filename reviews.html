@@ -18,6 +18,12 @@
   $('.header_menu').click(function(){
      $('.header_burger, .header_menu').removeClass('active');
   });
+  $(".header_burger_m").click(function() {
+  $(".header_burger_m, .header_menu_m").toggleClass("active");
+ });
+   $('.header_menu_m').click(function(){
+   $('.header_burger_m, .header_menu_m').removeClass('active');
+ });
     $(".slider").slick({
       arrows:true,
       // fade:true,
@@ -90,12 +96,75 @@
       </div>
       </div>
       </header>
+      <header class="header_m">
+        <div class="container_m">
+          <div class="header_body_m">
+            <a href="#" class="header_logo_m">
+              <img src="images/text_logo.svg" alt="">
+            </a>
+            <a href="#" class="header_logo_2_m">
+              <img src="images/sausage_logo.svg" alt="">
+            </a>
+            <div class="header_burger_m">
+              <span></span>
+            </div>
+            <nav class="header_menu_m">
+              <ul class="header_list_m">
+              <div class="flex_menu_1_m">
+                <div class="upper_menu_m" id='marg'>
+                <li>
+                  <a href="https://sweetle9.github.io/KruchinaArlekina/mainpage.html" class="header_link_m">О НАС</a>
+                </li>
+                </div>
+              <div class="lower_menu_m">
+                  <li>
+                  <a href="https://sweetle9.github.io/Book/book.html" class="header_link_m lower_m">КНИГА</a>
+                </li>
+                <li>
+                  <a href="https://sweetle9.github.io/building/building.html" class="header_link_m lower_m">ЗДАНИЕ</a>
+                </li>
+                <li>
+                  <a href="https://sweetle9.github.io/reviews/reviews.html" class="header_link_m lower_m">ОТЗЫВЫ</a>
+                </li>
+              </div>
+              </div>
+                <div class="flex_menu_2_m">
+                <div class='upper_menu_m'>
+                    <li>
+                    <a href="https://sweetle9.github.io/events/events.html" class="header_link_m">МЕРОПРИЯТИЯ</a>
+                  </li>
+                </div>
+                </div>
+                  <div class="flex_menu_3_m">
+                <div class="upper_menu_m" id='marg'>
+                    <li>
+                    <a href="#" class="header_link_m">АКЦИИ</a>
+                  </li>
+                </div>
+                  <div class="lower_menu_m">
+                    <li>
+                      <a href="https://sweetle9.github.io/game/game.html" class="header_link_m lower_m">ИГРА</a>
+                    </li>
+                    <li>
+                      <a href="https://sweetle9.github.io/bonuscard/bonuscard.html" class="header_link_m lower_m">БОНУСЫ</a>
+                    </li>
+                  </div>
+                  </div>
+              </ul>
+              <div class="header_contact_m">
+                <a href="#" class="header_phone_number_m">8 (812) 10250-50</a>
+                <a href="#" class="header_adress_m">ул. Караванная 16/14, Санкт Петербург</a>
+                <a href="#" class="header_mail_m">kruchinaarlekina</a>
+                </div>
+            </nav>
+            </div>
+          </div>
+          </header>
       <div class="circles_1">
         <span class="c_1"></span>
         <span class="c_2"></span>
         <span class="c_3"></span>
       </div>
-      
       <div class="content">
       <div class="text_elements">
         <img class='otzyvy'src="images/reviews.svg" alt="">
@@ -128,6 +197,19 @@
         </div>
         </div>
         </footer>
+        <footer class="footer_m">
+        <div class="footer_container_m">
+            <div class="footer_body_m">
+              <a href="#" class="footer_mail_m">krucinaarlekina@email.ru</a>
+              <a href="#" class="footer_autor_m">Калтаускайте Ингрида</a>
+              <div class="icons_m">
+                <img src="images/fb_icon.png" alt="">
+                <img src="images/twitter_icon.png" alt="">
+                <img src="images/insta_icon.png" alt="">
+              </div>
+          </div>
+          </div>
+          </footer>
       </div>
   </body>
 </html>
